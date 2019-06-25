@@ -45,12 +45,12 @@
     - ceph_repository_type == 'cdn'
     - subscription.rc != '0'
 
-- name: fail on unsupported distribution for ubuntu cloud archive
-  fail:
-    msg: "Distribution not supported by Ubuntu Cloud Archive: {{ ansible_distribution }}"
-  when:
-    - ceph_repository == 'uca'
-    - ansible_distribution != 'Ubuntu'
+#- name: fail on unsupported distribution for ubuntu cloud archive
+#  fail:
+#    msg: "Distribution not supported by Ubuntu Cloud Archive: {{ ansible_distribution }}"
+#  when:
+#    - ceph_repository == 'uca'
+#    - ansible_distribution != 'Ubuntu'
 
 - name: fail on unsupported openSUSE distribution
   fail:
