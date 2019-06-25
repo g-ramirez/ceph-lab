@@ -1,7 +1,7 @@
 ceph-ansible
 ============
 
-Test bed for deploying to STSstack
+Test bed for deploying to STSstack (Cloud-init stuff for openstack/stsstack)
 Currently doing:
 6 VMs, 1 for ansible host/ceph client and 5 for Ceph:
 * 3 Ceph Mons
