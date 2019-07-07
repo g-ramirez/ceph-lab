@@ -10,7 +10,4 @@ Currently doing:
   - Ceph-1-3 Contain both ceph-osds and ceph-mons
   - Ceph 4-5 OSDs only
   - Total of 100 osds
-<<<<<<< HEAD
 
-=======
->>>>>>> 53b4924840a389e698838c4d895e612e6bb50240
